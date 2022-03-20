@@ -1,5 +1,5 @@
 // infping.go copyright Tor Hveem
-// influxdb2 support by Serafin Rusu
+// influxdb2 support copyright Serafin Rusu
 // License: MIT
 
 package main
