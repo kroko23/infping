@@ -1,11 +1,16 @@
+[bindip]
+srcip = "bind_ip"
+
+[debug]
+logs = true
+
 [influxdb]
 
-host = "10.0.3.195"
-port = "8086"
-db = "ping"
+url = "http://localhost:8086"
+bucket = "bucket_name"
 measurement = "ping"
-user = "ping"
-pass = "pong"
+org = "org_name"
+token = "token_id"
 
 [hosts]
 
