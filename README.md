@@ -1,10 +1,12 @@
 # infping
-Parse fping output, store result in influxdb 2.0
 
-See blog post for more info https://hveem.no/visualizing-latency-variance-with-grafana
+"infping" is a tool that parses the output of fping and stores the results in InfluxDB 2.0.
 
+For more information, please refer to the blog post at https://hveem.no/visualizing-latency-variance-with-grafana
 
-Building from source (tested on Almalinux 8.4):
+To build the source code (which has been tested on AlmaLinux 8.4), you will need to download and install Go version 1.18 or higher.
+
+Building from source:
 
 Download and install at least v1.18 of go:
 ```
